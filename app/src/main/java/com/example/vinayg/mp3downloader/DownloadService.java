@@ -70,7 +70,7 @@ public class DownloadService extends IntentService {
         mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setContentTitle("Mp3 Download")
                 .setContentText("Download in progress")
-                .setSmallIcon(R.drawable.ic_arrow_downward);
+                .setSmallIcon(R.drawable.ic_notification);
 
         int count;
         if(isNetworkConnected()) {
